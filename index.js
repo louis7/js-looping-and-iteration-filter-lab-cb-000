@@ -10,6 +10,7 @@ function findMatching (drivers, string) {
 
   return newDrivers;
 }
+<<<<<<< HEAD
 
 
 function fuzzyMatch(drivers, string) {
@@ -30,3 +31,5 @@ function matchName (list, name) {
     return driver.name.toLowerCase() === name.toLowerCase();
   });
 }
+=======
+>>>>>>> 7ad54143a7de900c7f5d8fd6dd0064f3b327ce78
